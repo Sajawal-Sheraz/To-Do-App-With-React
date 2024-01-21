@@ -68,41 +68,41 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.list {
+.items-list {
   margin: 0;
   padding: 0;
   margin-left: 1rem;
   list-style: none;
 }
 
-.list li:has(input:checked) label {
+.items-list li:has(input:checked) label {
   color: hsl(200, 20%, 40%);
 }
 
-.list {
+.items-list {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
 
-.list li {
+.items-list li {
   display: flex;
   gap: 0.5rem;
   align-items: center;
 }
 
-.list li label {
+.items-list li label {
   display: flex;
   gap: 0.25rem;
   cursor: pointer;
   align-items: center;
 }
 
-.list li:has(input:focus-visible) label {
+.items-list li:has(input:focus-visible) label {
   outline: 1px solid hsl(200, 100%, 50%);
 }
 
-.list li input {
+.items-list li input {
   outline: none;
   width: 0;
   height: 0;
@@ -111,7 +111,7 @@ body {
   position: absolute;
 }
 
-.list li label::before {
+.items-list li label::before {
   content: "";
   display: block;
   width: 0.9rem;
@@ -123,11 +123,11 @@ body {
   align-items: center;
 }
 
-.list li label:hover::before {
+.items-list li label:hover::before {
   background: hsl(200, 100%, 80%);
 }
 
-.list li:has(input:checked) label::before {
+.items-list li:has(input:checked) label::before {
   content: "✔";
   background: hsl(200, 100%, 40%);
   color: hsl(200, 100%, 90%);
@@ -135,6 +135,6 @@ body {
   font-weight: bold;
 }
 
-.list li:has(input:checked) label:hover::before {
+.items-list li:has(input:checked) label:hover::before {
   background: hsl(200, 100%, 30%);
 }
