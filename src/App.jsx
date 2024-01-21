@@ -1,3 +1,5 @@
+import "./style.css";
+
 import { useState } from "react";
 
 export default function App() {
