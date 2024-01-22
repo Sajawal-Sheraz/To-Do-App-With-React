@@ -38,8 +38,8 @@ export default function App() {
   return (
     <>
       <form action="#" className="add-item-form" onSubmit={handleSubmit}>
+        <h3>New Item</h3>
         <div className="header">
-          <h3>New Item</h3>
           <input
             type="text"
             id="id_new_item_field"
@@ -49,7 +49,7 @@ export default function App() {
           <button className="btn">Add Item</button>
         </div>
       </form>
-      <h1 className="heading">Todo List</h1>
+      <h1 className="heading">Tasks</h1>
       <div className="items-list">
         {todos.length === 0 && "No Todos"}
 
