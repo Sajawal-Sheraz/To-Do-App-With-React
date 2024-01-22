@@ -12,12 +12,6 @@ body {
   max-width: 500px;
   margin: 0 auto;
 }
-body {
-  background: #333;
-  color: hsl(200, 100%, 90%);
-  max-width: 500px;
-  margin: 0 auto;
-}
 
 .add-item-form {
   display: flex;
