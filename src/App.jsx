@@ -38,7 +38,6 @@ export default function App() {
   return (
     <>
       <form action="#" className="add-item-form" onSubmit={handleSubmit}>
-        <h3>New Item</h3>
         <div className="header">
           <input
             type="text"
@@ -51,7 +50,7 @@ export default function App() {
       </form>
       <h1 className="heading">Tasks</h1>
       <div className="items-list">
-        {todos.length === 0 && "No Todos"}
+        {todos.length === 0 && "No Task To Show!"}
 
         {todos.map((todo) => {
           return (
